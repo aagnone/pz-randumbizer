@@ -27,7 +27,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "http://aagnone.github.io/pz-randumbizer",
+  "homepage": "http://aagnone.github.io/pz-randumbizer/",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -21,8 +21,8 @@ const Job = () => {
       <div className="run">
         <h2>Occupation</h2>
         <div style={{ display: 'flex', alignItems: 'center' }}>
-          {currentOccupation.icon.length > 0 && <img src={currentOccupation.icon} alt="" />}
-          <p style={{ textTransform: 'capitalize', marginLeft: '1rem' }} className="occupation">
+          <img src={(currentOccupation && currentOccupation.icon) && currentOccupation.icon} alt="" />
+          <p style={{ textTransform: 'capitalize', marginLeft: currentOccupation.icon && '1rem' }} className="occupation">
             {currentOccupation.name}
           </p>
         </div>
