@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pz-randumbizer/static/css/main.ee4b3c09.css",
+    "main.js": "/pz-randumbizer/static/js/main.7ad82a8f.js",
+    "index.html": "/pz-randumbizer/index.html",
+    "main.ee4b3c09.css.map": "/pz-randumbizer/static/css/main.ee4b3c09.css.map",
+    "main.7ad82a8f.js.map": "/pz-randumbizer/static/js/main.7ad82a8f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee4b3c09.css",
+    "static/js/main.7ad82a8f.js"
+  ]
+}
