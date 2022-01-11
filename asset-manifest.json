@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pz-randumbizer/static/css/main.ee4b3c09.css",
-    "main.js": "/pz-randumbizer/static/js/main.6e6abc31.js",
+    "main.js": "/pz-randumbizer/static/js/main.10d20d47.js",
     "index.html": "/pz-randumbizer/index.html",
     "main.ee4b3c09.css.map": "/pz-randumbizer/static/css/main.ee4b3c09.css.map",
-    "main.6e6abc31.js.map": "/pz-randumbizer/static/js/main.6e6abc31.js.map"
+    "main.10d20d47.js.map": "/pz-randumbizer/static/js/main.10d20d47.js.map"
   },
   "entrypoints": [
     "static/css/main.ee4b3c09.css",
-    "static/js/main.6e6abc31.js"
+    "static/js/main.10d20d47.js"
   ]
 }
