@@ -85,6 +85,4 @@ const demographics = allJobs.map((job) => {
   return { ...job, weight: job.value / totalPopulation }
 })
 
-console.log(demographics)
-
 export { demographics }
