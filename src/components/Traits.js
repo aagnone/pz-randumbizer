@@ -1,13 +1,23 @@
 import React from 'react'
 
-const Traits = ({ negativeTraits }) => {
+const Traits = ({ negativeTraits, positiveTraits }) => {
   return (
     <div>
       <h2>Positive Traits</h2>
-      <p className="positive">(coming soon ...)</p>
+        {positiveTraits.map((trait, i) => {
+          return (
+            <p key={i} className="positive">
+              {trait.name}
+            </p>
+          )
+        })}
       <h2>Negative Traits</h2>
-      {negativeTraits.map((trait) => {
-        return <p className="negative">{trait.name}</p>
+      {negativeTraits.map((trait, i) => {
+        return (
+          <p key={i} className="negative">
+            {trait.name}
+          </p>
+        )
       })}
     </div>
   )

@@ -45,7 +45,7 @@ const weakStomach = {
   lore: ['Ate bad shellfish that destroyed their stomach lining. (stupid not lore)'],
 }
 
-const allTraits = [
+const allNegativeTraits = [
   agoraphobic,
   allThumbs,
   asthmatic,
@@ -83,4 +83,4 @@ const allTraits = [
   weakStomach,
 ]
 
-export {allTraits}
+export {allNegativeTraits}

@@ -8,7 +8,11 @@ const pick = (demographics) => {
 }
 
 const getRandomInt = (max) => {
-    return Math.floor(Math.random() * max)
+  return Math.floor(Math.random() * max)
 }
 
-export {pick, getRandomInt}
+function addArray(accumulator, a) {
+  return accumulator + a
+}
+
+export { pick, getRandomInt, addArray}
